@@ -1,0 +1,85 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #13282e;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-grow: 1;
+}
+
+.intro {
+    background-color: #8de9ee;
+    flex-direction: row; /* Arrange items side-by-side */
+    justify-content: center;
+    align-items: center;
+}
+
+.text-block {
+    width: 60%; /* Adjust text block width */
+    padding: 320px;
+    text-align: center;
+}
+
+.side-photo {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+}
+
+.projects {
+    background-color: #49959f;
+    flex-direction: row; /* Arrange projects side-by-side */
+    justify-content: space-around; /* Evenly space projects */
+    padding-top: 230px;
+    padding-bottom: 230px;
+}
+
+.project {
+    background-color: #C4DFE6;
+    padding: 30px; /* Larger padding for bigger size */
+    width: 450px; /* Increased by 50% */
+    height: 450px; /* Increased by 50% */
+    text-align: center;
+    color: #003B46;
+}
+
+.footer {
+    background-color: #01404b;
+    color: #F9F9FA;
+    text-align: center;
+    padding: 40px;
+}
+
+.social-links a {
+    color: #F9F9FA;
+    margin: 0 10px;
+}
+
+a {
+    color: #66A5AD;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 17px;
+}
